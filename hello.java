@@ -3,12 +3,13 @@ import java.util.Scanner;
 public class hello {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("2자리수 정수 입력(10~99)>>>");
 
-        System.out.print("원화를 입력하세요(단위 원)>>");
-        int won = scanner.nextInt();
-        double dollar = won / 1100;
+        int x = scanner.nextInt();
 
-        System.out.print(won+"원은 $"+dollar+"입니다.");
-
+        if((x/10)==(x%10))
+         System.out.println("Yes! 10의 자리와 1의 자리가 같습니다.");
+        else
+         System.out.println("No! 10의 자리와 1의 자리가 같지 않습니다.");
     }
 }
