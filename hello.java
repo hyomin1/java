@@ -8,7 +8,7 @@ public class hello {
         int won = scanner.nextInt();
         double dollar = won / 1100;
 
-        System.out.print(won+"원은 $"+dollar+"입니다.");
+        System.out.print(won+"원은 $"+dollar+"입니다.");  
 
     }
 }
