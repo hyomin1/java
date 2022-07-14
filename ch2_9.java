@@ -14,6 +14,7 @@ public class ch2_9 {
         else
          System.out.print("점 ("+x1+", "+y1+")는 원 안에 없다.");
         scanner.close();
+        
 
     }
     
