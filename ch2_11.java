@@ -1,5 +1,5 @@
 //11-1
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class ch2_11 {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class ch2_11 {
     }
     
 }
-
+*/
 //11-2
 import java.util.Scanner;
 public class ch2_11 {
