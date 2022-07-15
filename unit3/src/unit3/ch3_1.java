@@ -1,8 +1,37 @@
 package unit3;
 
-public class ch3_1 {
+/*public class ch3_1 {
 	public static void main(String [] args) {
-		System.out.print("h");
+		int sum=0;
+		int i=0;
+		while(i<100) {
+			sum+=i;
+			i+=2;
+		}
+		System.out.println(sum);
+		
 	}
 
+}*/
+
+/*public class ch3_1 {
+	public static void main(String[] args) {
+		int sum=0;
+		for(int i=0;i<100;i+=2) {
+			sum+=i;
+		}
+		System.out.println(sum);
+	}
+}*/
+
+public class ch3_1 {
+	public static void main(String[] args) {
+		int sum=0;
+		int i=0;
+		do {
+			sum+=i;
+			i+=2;
+		}while(i<100);
+		System.out.println(sum);
+	}
 }
