@@ -15,6 +15,7 @@ public class ch3_2 {
 				System.out.print(n[i][j]+" ");
 			System.out.println();}
 		
+		
 	
 	
 	}
