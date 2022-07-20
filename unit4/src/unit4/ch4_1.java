@@ -1,33 +1,28 @@
 package unit4;
 import java.util.Scanner;
-class TV {
-	String company;
-	int year;
-	int inch;
-	public TV() {
-		
+class Grade {
+	int math,science,english;
+	public Grade() {
 	}
-	public TV(String company,int year, int inch) {
-		this.company=company;
-		this.year=year;
-		this.inch=inch;
+	public Grade(int math,int science,int english) {
+		this.math=math;
+		this.science=science;
+		this.english=english;
 	}
-	void show() {
-		System.out.print(company+"에서 만든 "+year+"년형 " +inch+"인치 TV");
-		
-		
-		
+	public double average() {
+		return (math+science+english) /3;
 	}
-	
-	
 }
 public class ch4_1 {
-	
 	public static void main(String[] args) {
-		
-		TV myTV = new TV("LG",2017,32);
-		myTV.show();
-		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("수학, 과학, 영어 순으로 3개의 점수 입력>>");
+		int math = scanner.nextInt();
+		int science = scanner.nextInt();
+		int english = scanner.nextInt();
+		Grade me = new Grade(math, science,english);
+		System.out.println("평균은 "+me.average());
+		scanner.close();	
 	}
 }
 
