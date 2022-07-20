@@ -15,6 +15,8 @@ class TV {
 	void show() {
 		System.out.print(company+"에서 만든 "+year+"년형 " +inch+"인치 TV");
 		
+		
+		
 	}
 	
 	
